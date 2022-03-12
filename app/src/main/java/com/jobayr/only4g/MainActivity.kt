@@ -1,4 +1,4 @@
-package com.jobayr.forced4g
+package com.jobayr.only4g
 
 import android.content.Intent
 import android.os.Bundle

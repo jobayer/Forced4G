@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jobayr.forced4g">
+    package="com.jobayr.only4g">
 
     <application
         android:allowBackup="true"
-        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Forced4G">
         <activity
-            android:name=".MainActivity"
-            android:excludeFromRecents="true">
+            android:name="com.jobayr.only4g.MainActivity"
+            android:excludeFromRecents="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
